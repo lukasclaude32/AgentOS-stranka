@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: agentos-landing
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: node .next/standalone/server.js
+    envVars:
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: ADMIN_SECRET
+        generateValue: true
+      - key: NODE_ENV
+        value: production

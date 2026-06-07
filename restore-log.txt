@@ -1,0 +1,4 @@
+events=128
+touched=33
+failures=1
+2026-06-04T13:09:41.576Z Edit miss C:\Users\Uzivatel1\SpaceSolutions\uloha-4-landing\next.config.ts :: const nextConfig: NextConfig = {\n  /* config options here */\n};
